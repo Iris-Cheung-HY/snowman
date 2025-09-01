@@ -39,7 +39,7 @@ def snowman(snowman_word):
         print_word_progress_string(snowman_word, correct_letter_guess_statuses)
 
     if is_word_guessed(snowman_word, correct_letter_guess_statuses):
-        print("Congratulations, you win")
+        print("Congratulations, you win!")
     else: 
         print(f"Sorry, you lose! The word was {snowman_word}")
     
